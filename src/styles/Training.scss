@@ -1,0 +1,123 @@
+.switcherButton{
+    &:active{
+        color: white;
+        background: #0B6E4F;
+        border: none;
+        
+    }
+    cursor: pointer;
+    border: none;
+    width: 17.20vw;
+    height: 3.54vw;
+    font: 600 2.08vw Roboto;
+    background: white;
+    border: 1px solid black;
+    border-radius: 0.52vw;
+    outline:none;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin: 5.73vw auto 5.73vw auto;
+    top: 2%;
+    width: 60vw;
+}
+.sticky{
+    position: sticky;
+    background:linear-gradient(white, rgba(255,255,255,0));
+    padding: 0.5vw;
+    height: 6vw;
+    top: 0;
+}
+.center-text{
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+div{
+   
+    #row-tag{
+        display: flex;
+        .number{
+            display: flex;
+            justify-content: center;
+            width:5.21vw;
+            height:5.21vw;
+            font: 900 2.60vw Montserrat;
+            color:white;
+            align-items: center;
+        }
+    }
+    
+    h2{
+        font: 600 2.34vw Roboto;
+        margin: 0 0 0 2vw;
+        align-self: center;
+    }
+    h3{
+        font: 500 1.8vw Roboto;
+        margin: 2vw 0 0 2vw;
+        align-self: center;
+    }
+    h4{
+        font: 600 1.5vw Roboto;
+        margin: 2vw 0 0 2vw;
+        align-self: center;
+    }
+    p{
+        font: 400 1.82vw Roboto;
+        text-align: justify;
+        
+    }
+    ul{
+        
+        li{
+        font: 400 1.3vw Roboto;
+        margin: 2vw 0 0 0;
+        text-align: justify;
+    }
+    }
+    
+}
+#number-one{
+    margin: 5vw 0 0 0;
+}
+#number-two{
+    
+    margin: 5vw 0 0 auto;
+    text-align: end;
+    #row-tag{
+        display: flex;
+        justify-content: flex-end;
+    }
+    p{
+        margin:  0 0 0 auto;
+    }
+    
+}
+#number-three{
+    margin: 5vw 0 0 0;
+}
+#number-four{
+    margin: 5vw 0 0 auto;
+    #row-tag{
+        display: flex;
+        justify-content: flex-end;
+ }
+    .number{
+        color: black !important;
+    }
+    p{
+        margin:  0 0 0 auto;
+    }
+    
+}
+#number-five{
+    margin: 5vw 0 0 auto;
+}
+
+.centerList{
+    display: block;
+    width: 60.20vw;
+    margin: 0 auto 0 auto;
+}
+

@@ -1,0 +1,25 @@
+#teamCard{
+        display: flex;
+        justify-content: space-evenly;
+        width: 60vw;
+        height: auto;
+        margin: 0 auto 2vw auto;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        border: 1px solid grey;
+        border-radius:  0.52vw;
+        padding: 2vw;
+        h3{
+                text-align: start;
+                margin: 1vw 0 1vw 0;
+        }
+        h4{
+                text-align: start;
+                margin: 1vw 0 1vw 0;
+        }
+        p{
+                text-align: justify;
+        }
+        img{
+                vertical-align: middle;
+        }
+}

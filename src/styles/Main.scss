@@ -1,0 +1,38 @@
+main{
+    display: block;
+    #banner{
+        display: block;
+        height: 100vh;
+        width: 100vw;
+    
+   .mct1{
+       width: 67.708%;
+       display: block;
+       margin: 13vw auto 10% auto;
+       .mct2{
+           display: grid;
+           grid-template-columns: repeat(12, 6%);
+           grid-gap: 2.33%;
+        img{
+            width: 100%;
+            height: auto;
+            align-self: center;
+            grid-column: 4/6;
+        }
+        h1{
+            font: 600 4.43vw Roboto;
+            white-space: nowrap;
+            grid-row:1;
+            grid-column: 6;
+        }
+        p{
+            font: 400 1.5vw Roboto;
+            grid-column: 6/12;
+            grid-row:1;
+            align-self: end;
+            margin: 0;
+        }
+       }
+   }
+}
+}

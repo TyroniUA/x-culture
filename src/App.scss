@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./fonts/Roboto-Regular.ttf) format('truetype');
+
+}
+.App {
+  text-align: center;
+}
+
+

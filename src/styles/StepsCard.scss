@@ -1,0 +1,23 @@
+/* starting ENTER animation */
+.stepscardAnimation-enter {
+    opacity: 0.01;
+  }
+  
+  /* ending ENTER animation */
+  .stepscardAnimation-enter-active {
+    opacity: 1;
+    transition: all 500ms ease-in-out;
+  }
+  
+  /* starting EXIT animation */
+  .stepstepscardAnimationscard-exit {
+    opacity: 1;
+    // transform: scale(1.01);
+  }
+  
+  /* ending EXIT animation */
+  .stepscardAnimation-exit-active {
+    opacity: 0;
+    // transform: scale(4);
+    transition: all 500ms ease-in-out;
+  }

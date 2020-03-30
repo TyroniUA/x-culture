@@ -1,0 +1,46 @@
+#button-row{
+    display: flex;
+    width: 71.48vw;
+    margin: 5vw auto 2vw auto;
+    justify-content: space-evenly;
+    button{
+    background: white;
+    width: auto;
+    padding: 0.52vw;
+    font: 400 1.56vw Roboto;
+    border: 1px solid black;
+    color: black;
+    margin: '0 1.30vw 0 0';
+    border-radius: 0.52vw;
+    outline:none;
+    height: 2.97vw;
+    cursor: pointer;
+    &.active{
+        background: #0B6E4F;    
+        color: white;
+        border: none;
+    }
+    }
+
+}
+section{
+    width: 55vw;
+     display: none;
+     margin: 5vw auto 0 auto;
+     a{ 
+         color: #0B6E4F;
+         text-decoration: none !important;
+     }
+    p{
+        font: 400 1.3vw Roboto;
+        text-align: justify;
+    }
+    h4{
+        font: 600 1.5vw Roboto;
+    }
+    li{
+        font: 400 1.3vw Roboto;
+        margin: 0.6vw 0 0 0;
+        text-align: justify;
+    }
+}
