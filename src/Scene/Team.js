@@ -39,7 +39,7 @@ componentDidMount =() =>{
     }) 
   }
   getBoardMembers = () => {
-    db.collection('boardMemebers').get().then( (querySnapshot) => {
+    db.collection('boardMemebers').orderBy('Name').get().then( (querySnapshot) => {
       querySnapshot.forEach( doc => {
         const data = doc.data()
         this.setState({
@@ -68,7 +68,7 @@ componentDidMount =() =>{
         }}>Admin office</p>
 
         {teamMembers.map(member => {
-          return (<TeamCard name={member.name} position={member.position} src ={member.url} text={member.text} />)
+          return (<TeamCard name={member.Name} position={member.position} src ={member.url} text={member.text} />)
         })}
         <p style={{
           width: '57.35vw',
@@ -77,7 +77,7 @@ componentDidMount =() =>{
           textAlign: 'center'
         }}>Special Projects</p>
         {specialMembers.map(member => {
-          return (<TeamCard name={member.name} position={member.position} src ={member.url} text={member.text} />)
+          return (<TeamCard name={member.Name} position={member.position} src ={member.url} text={member.text} />)
         })}
 
         <p style={{
@@ -88,7 +88,7 @@ componentDidMount =() =>{
         }}>XCAB: X-Culture Advisory Board 2019-2020</p>
 
         {boardMembers.map(member => {
-          return (<TeamCard name={member.name} position={member.position} src ={member.url} text={member.text} />)
+          return (<TeamCard name={member.Name} position={member.position} src ={member.url} text={member.text} />)
         })}
 
       </main>

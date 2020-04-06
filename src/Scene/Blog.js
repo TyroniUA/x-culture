@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Business.scss'
+import StepsCard from '../Components/Cards/StepsCard'
 
 const Blog =()=>{
   return (
@@ -9,14 +10,16 @@ const Blog =()=>{
                     width: '44.52vw',
                     textAlign: 'center',
                     margin: '5% auto 0 auto'
-                }}>WINNERS</h1>
+                }}>BLOG</h1>
                 <p style={{
                     width: '57.35vw',
                     font: '400 1.82vw Roboto',
                     margin: '5% auto 2% auto',
                     textAlign: 'center'
-                }}>Empty page of winners</p>
+                }}>Latest news from X-Culture</p>
+                
             </main>
+              
              )
         
     

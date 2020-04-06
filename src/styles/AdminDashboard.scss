@@ -1,0 +1,35 @@
+.box-name{
+    width: 23vw;
+     height:6vw;
+      display: block;
+      margin: 2vw auto 0 auto;
+       border:1px solid grey;
+        border-radius:0.52vw;
+        padding: 1vw;
+    &:hover{
+        box-shadow: 5px 5px 15px rgba(0,0,0, 0.3);
+        transition: 0.3s;
+        background: black;
+        color: white;
+    }
+}
+.logout-button{
+
+        width: 20vw;
+        height: 4vw;
+        font: 600 2vw Roboto;
+        border: none;
+        border-radius: 0.5vw;
+        background: darkcyan;
+        color: white;
+        transition: 0.2s;
+        margin: 2vw auto 2vw auto;
+        display: block;
+        &:hover{
+          background: black;
+          color: white;
+          box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+          transition: 0.2s;
+        }
+      
+}

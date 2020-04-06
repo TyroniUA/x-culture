@@ -13,10 +13,15 @@ import Winners from './Scene/Winners'
 import Coach from './Scene/Coach'
 import Admin from './Scene/Admin'
 import AdminDashboard from './Scene/AdminDashboard';
+import GSymp from './Scene/GSymp'
+import { AuthProvider } from "./FireBase/Auth";
+import PrivateRoute from "./FireBase/PrivateRoute";
+import Hackaton from './Scene/Hackaton'
 
 
 function App() {
   return (
+    <AuthProvider>
     <Router>
       
         <NavBar title='volodymyr' />
@@ -24,18 +29,20 @@ function App() {
 
           <Route path='/' exact render={(props) => <Main/>} />
           <Route path='/admin' exact component={Admin} />
-          <Route path='/AdminDashboard'exact component={AdminDashboard} />
+          <PrivateRoute path='/AdminDashboard'exact component={AdminDashboard} />
           <Route path='/training' component={Training} />
           <Route path='/business' component={Business} />
           <Route path='/research' component={Research} />
           <Route path='/coach' component={Coach}/>
           <Route path='/team' component={Team} />
-          
+          <Route path='/symposium' component={GSymp}/>
           <Route path='/blog' component={Blog} />
           <Route path='/winners' component={Winners} />
+          <Route path='/hackaton' component={Hackaton} />
         </Switch>
         <Footer />
     </Router>
+    </AuthProvider>
 
   );
 }

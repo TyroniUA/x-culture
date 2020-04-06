@@ -2,7 +2,7 @@ main{
     display: block;
     #banner{
         display: block;
-        height: 100vh;
+        height: auto;
         width: 100vw;
     
    .mct1{
@@ -35,4 +35,11 @@ main{
        }
    }
 }
+}
+
+.sectionContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.textContainer{
 }

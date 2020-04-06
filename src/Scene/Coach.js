@@ -62,6 +62,8 @@ const Coach = () =>{
                 The Coaches acquire skills and experiences even many seasoned managers don’t have. Skills and experiences employers want.</p>
                 <section style={{display:'block'}} >
                 <FragmentPlayer url='https://www.youtube.com/embed/RhxAeXXaL04' />
+                <button className='applybutton'><a href='https://uncg.qualtrics.com/jfe/form/SV_etbdhC86Nwv6blP' target='_blank'><h3 className='applytext'>APPLY AS A COACH</h3></a> </button>
+            
                 <h2 style={{ font: '500 3.5vw Roboto', margin: '10vw 0 3vw 0', textAlign: 'center' }} >HOW IT WORKS</h2>
                     <h3 style={{textAlign: 'center', margin:'0 0 0 0'}} >Hard work on Real problems</h3>
                 <Accordion defaultActiveKey="0" style={{ margin: '5vw auto 0 auto' }}>

@@ -39,9 +39,12 @@ class NavBar extends React.Component {
                     <li style={{margin:'0 0 0 0'}}>Winners</li>
                     </Link>
                     <div style={{margin:'1vw 0 1vw 0'}}></div>
-                    <Link to='/blog'>
+                   {/* <Link to='/blog'>
                     <li style={{margin:'0 0 0 0'}}>Blog</li>
+        </Link> */} <Link  to='/hackaton'>
+                    <li style={{margin:'0 0 0 0'}}>Hackaton</li>
                     </Link>
+
                     </ul>
                 </div>
                 <ul>

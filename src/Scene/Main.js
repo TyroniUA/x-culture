@@ -1,47 +1,67 @@
-import React from 'react'
+import React from 'react';
 import '../styles/Main.scss';
 import FragmentPlayer from '../Components/FragmentPlayer.js';
-import logo from './materials/logo.png'
-
+import logo from '../Images/logo.png';
+import imgbusiness from '../Images/imgbusiness.png';
+import imgtraining from '../Images/imgtraining.png';
+import imgresearch from '../Images/imgresearch.png';
 
 const Sector = props => {
     return (
         <section id={props.id}
             style={{
-                width:'auto',
-                display: props.display,
+                display: 'block',
+                width: '100vw',
                 height: props.height,
                 color: props.color,
                 marginTop: props.marginTop,
                 background: props.background
             }}>
-            <h1 style={{
-                margin: props.margin,
-                font: props.fonth1,
+                <span className='sectionContainer'>
+                    {props.children}
+                </span>
+                
+        </section>
+    )
+}
+
+const TextChildren = props =>{
+    return (
+        <div className='textContainer' style={{margin:props.marginblock}} >
+                    <h1 style={{
+                margin: '0',
+                font: '600 4.43vw  Roboto',
                 width: props.width,
-                paddingTop: props.paddingTop,
-                textAlign: props.textAlignh1
+                height:'auto',
+                paddingTop: '3vw',
+                textAlign: 'left'
             }}>{props.h1}</h1>
-           
+
                 <p dangerouslySetInnerHTML={{ __html: props.p }}
                 style={{
-                    font: props.fontp,
+                    font: '400 1.82vw Roboto',
                     textAlign: 'justify',
                     width: '40.35vw',
-                    marginLeft: props.marginLeft
+                    marginTop:'2vw'
                 }}></p>
+                </div>
                 
+    )
+}
+const ImageChildren = props =>{
+    return (
+            <div className='imgContainer' style={{width:props.width, margin: props.margin}}>
+                    <img src={props.src} width={props.widthImg} height='auto' style={{display: 'block', margin: props.marginImg}} ></img>
                 <a href={props.link} 
                 style={{textDecoration: 'none', 
                 color:'inherit', 
                 display: 'block', 
-                margin: props.anchormargin,  }} >
-                    <p style={{font: '400 1.82vw Roboto',textAlign:'start' }} >{props.learn}
+                margin: '2vw auto 1vw auto'
+                  }} >
+                    <p style={{font: '400 1.82vw Roboto',textAlign: props.textAlign }} >Learn More...
                     </p>
                 </a>
-            
-            
-        </section>
+            </div>
     )
 }
 
@@ -50,71 +70,45 @@ const Main = () => {
     return (
         <main>
             <section id='banner'>
-                <container className='mct1'>
+                <div className='mct1'>
                     <div className='mct2'>
                         <img src={logo}></img>
                         <h1>CULTURE</h1>
                         <p>We unite business and education. And much more...</p>
                     </div>
-                </container>
+                </div>
                 <FragmentPlayer url="https://www.youtube.com/embed/DfNUz2qlQkY" />
             </section>
 
             <Sector id='training' display='block'
-                link='/training'
-                anchormargin='0 0 0 22vw'
-                learn='Learn more'
                 height='36.49vw'
-                width='45.56vw'
                 color='white'
                 marginTop='7.82vw'
-                background='#002366'
-                margin='0 0 0 46.14vw'
-                fonth1='600 4.43vw Roboto'
-                paddingTop='4.95vh'
-                h1='TRAINING & COMPETITION'
-                fontp='400 1.82vw Roboto'
-                marginLeft='46.14vw'
-                p="Every semester, thousands participants  from over 90 countries join the X-Culture competition.
-               <br/><br/>They compete, collaborate, learn the challenges and best practices of international business consulting."
-            />
+                background='#002366'>    
+                <ImageChildren src={imgtraining} widthImg='60%' marginImg='4.95vw 0 0 auto' textAlign='end' link='/training' />
+                <TextChildren width='45.56vw' h1='TRAINING & COMPETITION' p="Every semester, thousands participants  from over 90 countries join the X-Culture competition.
+               <br/><br/>They compete, collaborate, learn the challenges and best practices of international business consulting." />
+            </Sector>
             <Sector id='business' display='block'
-                link='/business'
-                anchormargin='0 0 0 72vw'
-                learn='Learn more'
                 height='40.14vw'
                 color='black'
                 marginTop='0'
-                width='42.25vw'
                 background='#FA9F42'
-                margin='0 0 0 18.87vw'
-                fonth1='600 4.43vw Roboto'
-                paddingTop='5.21vw'
-                h1='BUSINESS SOLUTIONS'
-                fontp='400 1.82vw Roboto'
-                marginLeft='18.87vw'
-                p="Companies present their business challenges. Thousands of amateurs and professionals develop their solutions.
-               <br/><br/>If there is something good for your business out there, they will find it and bring it to you."
-            />
+               >
+                <TextChildren marginblock='0 0 0 11vw' width='42.25vw' h1='BUSINESS SOLUTIONS' p='Companies present their business challenges. Thousands of amateurs and professionals develop their solutions.
+               <br/><br/>If there is something good for your business out there, they will find it and bring it to you.' />
+               <ImageChildren src={imgbusiness} widthImg='80%' link='/business' marginImg='4.95vw 7vw 0 0' textAlign='start' />
+               </Sector>
             <Sector id='research' display='block'
-                link='/research'
-                anchormargin='0 0 0 22vw'
-                learn='Learn more'
                 height='36.49vw'
-                width='45.56vw'
                 color='white'
                 marginTop='0'
-                background='#0B6E4F'
-                margin='0 0 0 46.14vw'
-                fonth1='600 4.43vw Roboto'
-                paddingTop='5.21vw'
-                h1='RESEARCH'
-                fontp='400 1.82vw Roboto'
-                marginLeft='46.14vw'
-                p="Observing thousands of people in hundreds of global virtual teams every semester presents a unique research platform.
-               <br/><br/>
-               We will consider collecting new data or incorporating new experimental conditions for most interesting research proposals."
-            />
+                background='#0B6E4F'>
+                    <ImageChildren src={imgresearch} widthImg='80%' link='/research' marginImg='4.95vw 0 0 auto' textAlign='end' />
+                    <TextChildren width='45.56vw' h1='RESEARCH' p="Observing thousands of people in hundreds of global virtual teams every semester presents a unique research platform.
+               <br/><br/> We will consider collecting new data or incorporating new experimental conditions for most interesting research proposals." />
+            
+                </Sector>
             <Sector id='support' display='block'
                 
                 height='60.53vw'
@@ -130,32 +124,7 @@ const Main = () => {
                 fontp='400 35px Roboto'
                 marginLeft='46.14vw'
             />
-            {/* 
-
-               <sector id='m-training'>
-               <h1>TRAINING & COMPETITION</h1>
-                <p>Every semester, thousands participants  from over 90 countries join the X-Culture competition.
-                <br/><br/>
-                They compete, collaborate, learn the challenges and best practices of international business consulting.</p>
-               </sector>
-
-               <sector id='m-business'>
-               <h1>BUSINESS SOLUTIONS</h1>
-                <p>Companies present their business challenges. Thousands of amateurs and professionals develop their solutions.
-                    <br/><br/>If there is something good for your business out there, they will find it and bring it to you.</p>
-               </sector>
-
-               <sector id='m-research'>
-               <h1>RESEARCH</h1>
-                <p>Observing thousands of people in hundreds of global virtual teams every semester presents a unique research platform.
-                <br/><br/>
-                We will consider collecting new data or incorporating new experimental conditions for most interesting research proposals.</p>
-               </sector>
-
-               <sector id='m-support'>
-               <h1>SUPPORTED BY</h1>
-                
-        </sector> */}
+            
 
         </main>
 

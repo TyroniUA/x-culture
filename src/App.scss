@@ -9,5 +9,54 @@
 .App {
   text-align: center;
 }
+body{
+  overflow-x: hidden;
+}
+.login{
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  margin: 2vw auto 2vw auto;
+  label{
+    font: 600 1.8vw Roboto;
+    display: block;
+    margin: 1vw auto 0 auto;
+  }
+  input{
+    width: 40vw;
+    height: 3vw;
+    border: none;
+    border-radius: 0.5vw;
+    box-shadow: 0px 10px 15px rgba(0,0,0, 0.1) ;
+    font: 400 1.5vw Roboto;
+    margin: 1vw auto 1vw auto;
+    padding: 1vw;
+    transition: 0.2s;
+    
+    &:hover{
+      background: rgba(240, 240, 240, 0.5);
+      transition: 0.2s;
+      
+    }
+  }
 
+  button{
+    width: 20vw;
+    height: 4vw;
+    font: 600 2vw Roboto;
+    border: none;
+    border-radius: 0.5vw;
+    background: darkcyan;
+    color: white;
+    transition: 0.2s;
+    margin: 2vw auto 2vw auto;
+    display: block;
+    &:hover{
+      background: black;
+      color: white;
+      box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+      transition: 0.2s;
+    }
+  }
+}
 

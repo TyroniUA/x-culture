@@ -111,6 +111,7 @@ class Training extends React.Component {
             borderInst: '1px solid black',
             display: 'flex',
             displayText: studentText,
+            buttonDisplay: 'none',
             h2width: [{ one: '11.83vw', two: '14.07vw', three: '31.85vw', four: '15.5vw' }],
             shortInstrcution: shortlistStudent,
             longInstruction: [],
@@ -154,7 +155,6 @@ class Training extends React.Component {
         this.setState({
             studButstat: 'nonactive',
             instButstat: 'active',
-           
             idswitcher: 'number-two-instructor',
             h2width: [{ one: '31.85vw', two: '22.52vw', three: '16vw', four: '16vw' }],
             displayText: instructorText,
@@ -173,6 +173,7 @@ class Training extends React.Component {
             instButstat: 'nonactive',
             idswitcher: 'number-two',
             display:'flex',
+            buttonDisplay:'none',
             h2width: [{ one: '11.83vw', two: '14.07vw', three: '31.85vw', four: '16vw' }],
             displayText: studentText,
             shortInstrcution: shortlistStudent,
@@ -192,7 +193,7 @@ class Training extends React.Component {
             $('#studentCard').fadeIn(500)
         }
         else{
-            $('studentCard').css(')display', 'none')
+            $('studentCard').css('display', 'none')
             
             $('#studentCard').fadeOut(300)
            
@@ -217,7 +218,9 @@ class Training extends React.Component {
                     <StudentCard margin='0 5.39vw 0 0' h2='Affiliated Students' p={affiliatedStudent} />
                     <StudentCard margin='0 0 0 5.39vw' h2='Unaffiliated Professionals'p={unAffiliatedProfessional} />
                 </div>
-            
+
+                <button className='applybutton'><a href='https://uncg.qualtrics.com/jfe/form/SV_a4CxtDdoWK5DvaQ' target='_blank'><h3 className='applytext'> {this.state.studButstat==='active'? 'APPLY AS PROFESSIONAL':'APPLY AS INSTRUCTOR'}
+                    </h3></a> </button>
 
                 <section className='centerList'>
 
@@ -233,8 +236,8 @@ class Training extends React.Component {
                         AS AN INSTRUCTOR</h3>
                     <HowItWorksCard id='HIW-1' h4='In Short' listItems={this.state.shortInstrcution} />
                     <AccordeonCard menuButtonTitle={this.state.button} listItems={this.state.longInstruction} />
-                    <button onClick="location.href='https://uncg.qualtrics.com/jfe/form/SV_a4CxtDdoWK5DvaQ';" style={{ background: 'orange', display:'block', border: 'none', outline:'none', borderRadius:'0.5vw', width: 'auto',
-                        height: 'auto', margin: '5vw auto 0 auto' }}><h3 style={{color: 'black', font: '600 2.08vw Roboto', margin: '0', padding: '0.9vw'}}>INSTRUCTOR<br/> APPLY HERE</h3> </button>
+                    <button className='applybutton'><a href='https://uncg.qualtrics.com/jfe/form/SV_a4CxtDdoWK5DvaQ' target='_blank'><h3 className='applytext'> {this.state.studButstat==='active'? 'APPLY AS PROFESSIONAL':'APPLY AS INSTRUCTOR'}
+                    </h3></a> </button>
 
                 </section>
 
