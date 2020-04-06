@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "//tyroniua.github.io/x-culture/static/css/main.318a61c1.chunk.css",
-    "main.js": "//tyroniua.github.io/x-culture/static/js/main.e0306afe.chunk.js",
-    "main.js.map": "//tyroniua.github.io/x-culture/static/js/main.e0306afe.chunk.js.map",
-    "runtime-main.js": "//tyroniua.github.io/x-culture/static/js/runtime-main.44660c6e.js",
-    "runtime-main.js.map": "//tyroniua.github.io/x-culture/static/js/runtime-main.44660c6e.js.map",
-    "static/css/2.de424728.chunk.css": "//tyroniua.github.io/x-culture/static/css/2.de424728.chunk.css",
-    "static/js/2.97ccbff2.chunk.js": "//tyroniua.github.io/x-culture/static/js/2.97ccbff2.chunk.js",
-    "static/js/2.97ccbff2.chunk.js.map": "//tyroniua.github.io/x-culture/static/js/2.97ccbff2.chunk.js.map",
-    "index.html": "//tyroniua.github.io/x-culture/index.html",
-    "precache-manifest.fd5c5fb99c1af5b33471f2d2355f2718.js": "//tyroniua.github.io/x-culture/precache-manifest.fd5c5fb99c1af5b33471f2d2355f2718.js",
-    "service-worker.js": "//tyroniua.github.io/x-culture/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "//tyroniua.github.io/x-culture/static/css/2.de424728.chunk.css.map",
-    "static/css/main.318a61c1.chunk.css.map": "//tyroniua.github.io/x-culture/static/css/main.318a61c1.chunk.css.map",
-    "static/js/2.97ccbff2.chunk.js.LICENSE.txt": "//tyroniua.github.io/x-culture/static/js/2.97ccbff2.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "//tyroniua.github.io/x-culture/static/media/Roboto-Regular.11eabca2.ttf",
-    "static/media/imgbusiness.png": "//tyroniua.github.io/x-culture/static/media/imgbusiness.3ce8a12f.png",
-    "static/media/imgresearch.png": "//tyroniua.github.io/x-culture/static/media/imgresearch.bbb7aed6.png",
-    "static/media/imgtraining.png": "//tyroniua.github.io/x-culture/static/media/imgtraining.091b30c1.png"
+    "main.css": "/x-culture/static/css/main.59f17564.chunk.css",
+    "main.js": "/x-culture/static/js/main.405b1d40.chunk.js",
+    "main.js.map": "/x-culture/static/js/main.405b1d40.chunk.js.map",
+    "runtime-main.js": "/x-culture/static/js/runtime-main.c870d03d.js",
+    "runtime-main.js.map": "/x-culture/static/js/runtime-main.c870d03d.js.map",
+    "static/css/2.de424728.chunk.css": "/x-culture/static/css/2.de424728.chunk.css",
+    "static/js/2.f2696485.chunk.js": "/x-culture/static/js/2.f2696485.chunk.js",
+    "static/js/2.f2696485.chunk.js.map": "/x-culture/static/js/2.f2696485.chunk.js.map",
+    "index.html": "/x-culture/index.html",
+    "precache-manifest.68c241bed4b4fac2b2c19460201b1b6b.js": "/x-culture/precache-manifest.68c241bed4b4fac2b2c19460201b1b6b.js",
+    "service-worker.js": "/x-culture/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/x-culture/static/css/2.de424728.chunk.css.map",
+    "static/css/main.59f17564.chunk.css.map": "/x-culture/static/css/main.59f17564.chunk.css.map",
+    "static/js/2.f2696485.chunk.js.LICENSE.txt": "/x-culture/static/js/2.f2696485.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/x-culture/static/media/Roboto-Regular.11eabca2.ttf",
+    "static/media/imgbusiness.png": "/x-culture/static/media/imgbusiness.3ce8a12f.png",
+    "static/media/imgresearch.png": "/x-culture/static/media/imgresearch.bbb7aed6.png",
+    "static/media/imgtraining.png": "/x-culture/static/media/imgtraining.091b30c1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.44660c6e.js",
+    "static/js/runtime-main.c870d03d.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.97ccbff2.chunk.js",
-    "static/css/main.318a61c1.chunk.css",
-    "static/js/main.e0306afe.chunk.js"
+    "static/js/2.f2696485.chunk.js",
+    "static/css/main.59f17564.chunk.css",
+    "static/js/main.405b1d40.chunk.js"
   ]
 }
