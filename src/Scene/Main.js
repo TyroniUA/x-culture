@@ -51,7 +51,7 @@ const TextChildren = props =>{
 const ImageChildren = props =>{
     return (
             <div className='imgContainer' style={{width:props.width, margin: props.margin}}>
-                    <img src={props.src} width={props.widthImg} height='auto' style={{display: 'block', margin: props.marginImg}} ></img>
+                    <img src={props.src} className='mainPageImage' width={props.widthImg} height='auto' style={{display: 'block', margin: props.marginImg}} ></img>
                 <a href={props.link} 
                 style={{textDecoration: 'none', 
                 color:'inherit', 
@@ -99,7 +99,7 @@ const Main = () => {
                <br/><br/>If there is something good for your business out there, they will find it and bring it to you.' />
                <ImageChildren src={imgbusiness} widthImg='80%' link='/business' marginImg='4.95vw 7vw 0 0' textAlign='start' />
                </Sector>
-            <Sector id='research' display='block'
+             <Sector id='research' display='block'
                 height='36.49vw'
                 color='white'
                 marginTop='0'
@@ -119,11 +119,11 @@ const Main = () => {
                 margin='0 auto 0 auto'
                 fonth1='600 4.43vw Roboto'
                 paddingTop='5.21vw'
-                h1='SUPPORTED BY'
+               
                 textAlignh1='center'
                 fontp='400 35px Roboto'
                 marginLeft='46.14vw'
-            />
+            ><h1 style={{ font: '600 4.43vw  Roboto', margin:'3vw auto 2vw auto'}} >SUPPORTED BY</h1></Sector>
             
 
         </main>

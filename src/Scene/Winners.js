@@ -72,8 +72,14 @@ class Winners extends React.Component {
   }
 
   render() {
-
+    
+  
+    
     const {winners} = this.state;
+    if (winners != []){
+      console.log(winners)
+    }
+    
     return (
       <main>
         
@@ -102,11 +108,18 @@ class Winners extends React.Component {
         
         {winners.map(el => {
           
+          let temp = '{"title":"Team 51, Client Company: Calgary International Airport, Canada","members":["Heather Glenn, Florida Atlantic University, Instructor: Daniel Rottig, USA","Karen Cerquera Molina, Universidad EAN, Instructor: Juan Manuel Gil, Colombia","Maeva Magmui, Massey University, Instructor: Dirk Boehe, Venezuela","Marcos Soares, Federal University of Parana, Instructor: Germano Glufke Reis, Brazil","Maxwell Darko Addo, Kwame Nkrumah University of Science and Technology, Instructor: Samuel Yaw Akomea, Ghana"]}'
+         
+          let object = JSON.parse(temp);
+         console.log(object.title)
          
           
           return (
           
-          <div><h3 style={{font:'600 2vw Roboto', width:'20vw', margin:'2vw auto 3vw auto' }}>{el.winYear}</h3><p style={{font:'400 1vw Roboto', width:'50vw', margin:'2vw auto 3vw auto' }}>{el.winText}</p><TeamList argument={el.winEarlyTrack}/> </div>)
+          <div>
+            <h3 style={{font:'600 2vw Roboto', width:'20vw', margin:'2vw auto 3vw auto' }}>{el.winYear}</h3>
+            <p style={{font:'400 1vw Roboto', width:'50vw', margin:'2vw auto 3vw auto' }}>{el.winText}
+            </p><TeamList argument={el.winEarlyTrack}/> </div>)
         })}
       </main>
 

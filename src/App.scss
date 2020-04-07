@@ -1,5 +1,5 @@
 *{
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 @font-face{
   font-family: 'Roboto';
@@ -11,7 +11,9 @@
 }
 body{
   overflow-x: hidden;
+  
 }
+
 .login{
   width: inherit;
   display: flex;

@@ -1,10 +1,9 @@
-main{
-    display: block;
+
+    
     #banner{
         display: block;
         height: auto;
         width: 100vw;
-    
    .mct1{
        width: 67.708%;
        display: block;
@@ -35,11 +34,16 @@ main{
        }
    }
 }
-}
+
 
 .sectionContainer{
     display: flex;
     justify-content: space-around;
+    height: auto;
 }
-.textContainer{
+@media (max-width: 1300px){
+    .mainPageImage{
+        width: 60%;
+        margin: 2vw 2vw 2vw 2vw !important;
+    }
 }

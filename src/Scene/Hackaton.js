@@ -142,7 +142,7 @@ const Hackaton = () => {
 
                 <h2 style={{ font: '600 1.5vw Roboto', margin: '5vw auto 0 auto' }} >Typical Program</h2>
                 <TextListCard ptext='Pre-xackathon webinar' margin='0.6vw 0 0 0' listItems={preWebinar} />
-                <TextListCard ptext='Day 1' margin='0.6vw 0 0 0' listItems={day1} />
+                <TextListCard ptext='Day 1'font='600 1.5vw Roboto'  margin='0.6vw 0 0 0' listItems={day1} />
                 <TextListCard ptext='Day 2' font='600 1.5vw Roboto' margin='0.6vw 0 0 0' listItems={empty} children={<>
                     <TextListCard ptext='Session 1: Presentation of paper ideas, discussion:' listItems={day2S1} />
                     <TextListCard ptext='Session 2: Study design, criticism, defense:' listItems={day2s2} />

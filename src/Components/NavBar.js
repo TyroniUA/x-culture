@@ -63,9 +63,9 @@ class NavBar extends React.Component {
                     <Link to='/research'>
                     <li>Researcher</li>
                     </Link>
-                    <Link id='xacademy' to='/x-academy' style={{margin:'0 2vw 0 2vw'}}>
+                    <a id='xacademy' href='https://x-culture.org/academy/' target='_blank' style={{margin:'0 2vw 0 2vw'}}>
                     <li>X-Academy</li>
-                    </Link>
+                    </a>
                 </ul>
             </nav>
            
