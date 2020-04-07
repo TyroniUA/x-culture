@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Main from './Scene/Main';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { HashRouter as Router, Switch, Route } from "react-router-dom"
 import Training from './Scene/Training';
 import Business from './Scene/Business'
 import NavBar from './Components/NavBar.js'
