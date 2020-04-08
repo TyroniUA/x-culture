@@ -61,4 +61,23 @@ body{
     }
   }
 }
+.winner-card{
+  width: 10vw;
+  height: 3vw;
+  align-self: center;
+  background: rgb(11, 110, 79);
+  box-Shadow: 0px 10px 15px rgba(11, 110, 79, 0.3);
+  display: block;
+ color: white;
+ border-radius: 0.52vw;
+ transition: 0.4s;
+ align-content: center;
+ padding: 0.6vw;
+ &:hover{
+   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+   background: black;
+   transition: 0.2s;
+ }
+ 
+}
 
