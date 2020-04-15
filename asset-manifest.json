@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/X-culture/static/css/main.78a39e8c.chunk.css",
-    "main.js": "/X-culture/static/js/main.e8afcaa0.chunk.js",
-    "main.js.map": "/X-culture/static/js/main.e8afcaa0.chunk.js.map",
-    "runtime-main.js": "/X-culture/static/js/runtime-main.c73d1ca0.js",
-    "runtime-main.js.map": "/X-culture/static/js/runtime-main.c73d1ca0.js.map",
-    "static/css/2.de424728.chunk.css": "/X-culture/static/css/2.de424728.chunk.css",
-    "static/js/2.ecd6f44f.chunk.js": "/X-culture/static/js/2.ecd6f44f.chunk.js",
-    "static/js/2.ecd6f44f.chunk.js.map": "/X-culture/static/js/2.ecd6f44f.chunk.js.map",
-    "index.html": "/X-culture/index.html",
-    "precache-manifest.438eb81d69786954be8711bc3cb98a1e.js": "/X-culture/precache-manifest.438eb81d69786954be8711bc3cb98a1e.js",
-    "service-worker.js": "/X-culture/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/X-culture/static/css/2.de424728.chunk.css.map",
-    "static/css/main.78a39e8c.chunk.css.map": "/X-culture/static/css/main.78a39e8c.chunk.css.map",
-    "static/js/2.ecd6f44f.chunk.js.LICENSE.txt": "/X-culture/static/js/2.ecd6f44f.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/X-culture/static/media/Roboto-Regular.11eabca2.ttf",
-    "static/media/imgbusiness.png": "/X-culture/static/media/imgbusiness.3ce8a12f.png",
-    "static/media/imgresearch.png": "/X-culture/static/media/imgresearch.bbb7aed6.png",
-    "static/media/imgtraining.png": "/X-culture/static/media/imgtraining.091b30c1.png"
+    "main.css": "/x-culture/static/css/main.4b812447.chunk.css",
+    "main.js": "/x-culture/static/js/main.7ca00363.chunk.js",
+    "main.js.map": "/x-culture/static/js/main.7ca00363.chunk.js.map",
+    "runtime-main.js": "/x-culture/static/js/runtime-main.c870d03d.js",
+    "runtime-main.js.map": "/x-culture/static/js/runtime-main.c870d03d.js.map",
+    "static/css/2.de424728.chunk.css": "/x-culture/static/css/2.de424728.chunk.css",
+    "static/js/2.9a08bd2b.chunk.js": "/x-culture/static/js/2.9a08bd2b.chunk.js",
+    "static/js/2.9a08bd2b.chunk.js.map": "/x-culture/static/js/2.9a08bd2b.chunk.js.map",
+    "index.html": "/x-culture/index.html",
+    "precache-manifest.37bab4dae0a33b6ed33b576976fbbf03.js": "/x-culture/precache-manifest.37bab4dae0a33b6ed33b576976fbbf03.js",
+    "service-worker.js": "/x-culture/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/x-culture/static/css/2.de424728.chunk.css.map",
+    "static/css/main.4b812447.chunk.css.map": "/x-culture/static/css/main.4b812447.chunk.css.map",
+    "static/js/2.9a08bd2b.chunk.js.LICENSE.txt": "/x-culture/static/js/2.9a08bd2b.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/x-culture/static/media/Roboto-Regular.11eabca2.ttf",
+    "static/media/imgbusiness.png": "/x-culture/static/media/imgbusiness.3ce8a12f.png",
+    "static/media/imgresearch.png": "/x-culture/static/media/imgresearch.bbb7aed6.png",
+    "static/media/imgtraining.png": "/x-culture/static/media/imgtraining.091b30c1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c73d1ca0.js",
+    "static/js/runtime-main.c870d03d.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.ecd6f44f.chunk.js",
-    "static/css/main.78a39e8c.chunk.css",
-    "static/js/main.e8afcaa0.chunk.js"
+    "static/js/2.9a08bd2b.chunk.js",
+    "static/css/main.4b812447.chunk.css",
+    "static/js/main.7ca00363.chunk.js"
   ]
 }
